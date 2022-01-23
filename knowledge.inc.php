@@ -35,7 +35,7 @@ $gg = 100;
 
 <?php
 $currentTime = time(); 
-$currentDate = date('Y-m-d', $currentTimes);
+$currentDate = date('Y-m-d', $currentTime);
 ?>
 
 <?php
