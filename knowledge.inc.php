@@ -46,4 +46,10 @@ $path = __FILE__;
 $uname = php_uname();
 ?>
 
+<?php
+$eo = 2.718;
+$e=$eo;
+$pi = 3.14;
+$e = &$pi;    
+?>
 

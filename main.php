@@ -85,6 +85,14 @@
         <?php
         echo 'OS info: ', $uname; ?> <br>
 
+        <?php
+        echo 'e is set to: ', $eo . '<br>';
+        echo 'pi is set to: ', $pi . '<br>';
+        echo ' e refers to the same memory address as pi $e = &$ and is now: ', $e;
+
+        ?> <br>
+
+
 
 
 
