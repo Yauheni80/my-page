@@ -1,3 +1,3 @@
 <div clas="logo">
-    <img src="img/l.png" alt="php">
+    <img src="img/logo.png" alt="php">
 </div>

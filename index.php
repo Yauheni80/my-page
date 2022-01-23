@@ -2,7 +2,7 @@
 
 
 <?php
-$p = 'Welcome on my page!'; ?>
+$p = 'Welcome to my page!'; ?>
 
  <?php
     $name = 'Evgeniy';
