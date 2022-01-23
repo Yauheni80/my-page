@@ -69,9 +69,17 @@
         <?php
         echo 'Residual from division of ', $j, ' and ', $f,  ' is ', $r; ?> <br>
 
+        <?php
+        echo 'Type of ', $cc, ' is ';
+        echo gettype($cc); 
+        echo ', while ', $gg, ' is ';
+        echo gettype($gg);
+        ?> <br>
+        
+
       </div>
     </div>
-    <?php include 'footer.inc.php' ?>s
+    <?php include 'footer.inc.php' ?>
   </div>
 </body>
 
