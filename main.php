@@ -71,11 +71,22 @@
 
         <?php
         echo 'Type of ', $cc, ' is ';
-        echo gettype($cc); 
-        echo ', while ', $gg, ' is ';
+        echo gettype($cc);
+        echo ', while ', $gg, ' is an';
         echo gettype($gg);
         ?> <br>
-        
+
+        <?php
+        echo 'Date: ', $currentDate; ?> <br>
+
+        <?php
+        echo 'Path to project on server: ', $path; ?> <br>
+
+        <?php
+        echo 'OS info: ', $uname; ?> <br>
+
+
+
 
       </div>
     </div>

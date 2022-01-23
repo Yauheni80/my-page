@@ -1,4 +1,6 @@
-
+<?php
+$glob=100;
+?>
 
 <?php
 $a = 'My knowledge is: ';
@@ -28,6 +30,20 @@ $r = $j%$f;
 <?php 
 $cc = 3.14; 
 $gg = 100; 
+?>
+
+
+<?php
+$currentTime = time(); 
+$currentDate = date('Y-m-d', $currentTimes);
+?>
+
+<?php
+$path = __FILE__;
+?>
+
+<?php
+$uname = php_uname();
 ?>
 
 
