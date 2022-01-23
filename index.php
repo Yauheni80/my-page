@@ -8,7 +8,7 @@ $z = 'Welcome to my page!'; ?>
     $name = 'Evgeniy';
     $surname = 'Kiselev';
     $city = 'Bergen';
-    $age = 32;
+    $age = 33;
     ?>
 <?php
 include 'main.php';

@@ -16,10 +16,8 @@
 
         <div class="article">
             <p class="text">
-                Ведьмак. Некоторыми ведьмином прозываемый. Вызывать его оченно опасно;
-                только тогда надобно, когда супротив чудищев и поганцев разных ничего поделать уже нельзя, ведьмак справится.
-                Однако ж следить надыть, чтобы к ведьмаку не прикасаться, ибо от оного запаршиветь можно. И девок от него прятать, потому ведьмак охоч до них сверх меры.
-                И хоча он весьма до злата жаден, не давать ему больше как за утопца серебряный грош либо полтора; за котолака — два серебряных гроша; за вампира — четыре серебряных гроша.
+                I do not like in n in PHP that content refresh after the source chnage doesnot always work immediately. 
+                Moreover,  Variables decclaredd in index.php often not displaye and only periodic switch between several browsers (chrome -firefox) helps..
             </p>
         </div>
     </div>

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css" />
   <title>PHP Practice</title>
 </head>
 
@@ -16,7 +16,7 @@
       <?php include 'menu.inc.php' ?>
     </div>
 
-    <div class="about_me">  
+    <div class="about_me">
       <h1> <?php echo $z ?> </h1>
 
       <div class="data">
@@ -27,20 +27,27 @@
           ?>
         </div>
 
-        <div class="fullname"> 
+        <div class="fullname">
           <p> My name is
             <?php
             echo $name, ' ', $surname . '<br>';
-            echo 'city: ', ' ' , $city; ?>
-          </p>
+            echo 'City: ', ' ', $city . '<br>';
 
-          <p> I am
-            <?php echo $age;  ?>
-            years old
+            echo 'Age: ', $age, ' years old';
+            ?>
           </p>
-          <p> We learned how to crate variables </p>
-          <p> We learned basic operations with them </p>
-          <p><?php echo $kkk;  ?><p>
+          <div class="myspec">
+
+            <p style="font-size: 23px; font-weight: bold"> Researcher, programer, software developer </p>
+            <p> Specialization: </p>
+            <p> - Metaheuristics algorithms and discrete-event simulation </p>
+            <p> - Mathematical modelling </p>
+            <p> - Hydrodynamics </p>
+            <p> - Combinatorial optimization </p>
+            <p> - Machine learning (ML) and neural networks (NN)</p>
+
+          </div>
+
         </div>
       </div>
 
@@ -52,15 +59,16 @@
         <?php
         $a = 10;
         $b = 20;
-        echo 'The sum of ', $a , ' ', 'and ', $b, " is ";
+        echo 'The sum of ', $a, ' ', 'and ', $b, " is ";
         $c = $a + $b;
         echo $c;
         ?> <br>
 
-        <?php echo $d , $price, $w; ?>
+        <?php echo $d, $price, $w; ?>
       </div>
     </div>
     <?php include 'footer.inc.php' ?>
   </div>
 </body>
+
 </html>
