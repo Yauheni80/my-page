@@ -38,7 +38,7 @@
           </p>
           <div class="myspec">
 
-            <p style="font-size: 23px; font-weight: bold"> Researcher, programer, software developer </p>
+            <p style="font-size: 23px;font-weight: bold"> Researcher, programer, software developer </p>
             <p> Specialization: </p>
             <p> - Metaheuristics algorithms and discrete-event simulation </p>
             <p> - Mathematical modelling </p>
@@ -64,10 +64,14 @@
         echo $c;
         ?> <br>
 
-        <?php echo $d, $price, $w; ?>
+        <?php echo $d, $price, $w; ?> <br>
+
+        <?php
+        echo 'Residual from division of ', $j, ' and ', $f,  ' is ', $r; ?> <br>
+
       </div>
     </div>
-    <?php include 'footer.inc.php' ?>
+    <?php include 'footer.inc.php' ?>s
   </div>
 </body>
 
