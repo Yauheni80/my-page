@@ -1,0 +1,90 @@
+Skip to content
+Why GitHub? 
+Team
+Enterprise
+Explore 
+Marketplace
+Pricing 
+Search
+Sign in
+Sign up
+55577799
+/
+practice
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+practice/style.css
+@55577799
+55577799 commit
+Latest commit aa2c6c1 on Aug 17, 2020
+ History
+ 1 contributor
+114 lines (94 sloc)  1.53 KB
+   
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet');
+
+html,
+body {
+    height: 100%;
+}
+
+.greetings,
+p,
+h1, 
+h2 {
+    font-family: 'Noto Serif JP', serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: #8dc788;
+    padding: 5px;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 25%;
+    margin-bottom: 1em;
+    background-color: #b8b652;
+}
+
+ul  {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.5rem;
+    color: #f3eaea;
+    font-weight: 800;
+}
+li a:hover {
+    color:#0a1396;
+  }
+
+p {
+    font-size: 3.2rm;
+    color: #323332;
+    padding-left: 20px;
+}
+
+

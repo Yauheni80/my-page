@@ -2,7 +2,7 @@
 
 
 <?php
-$p = 'Welcome to my page!'; ?>
+$z = 'Welcome to my page!'; ?>
 
  <?php
     $name = 'Evgeniy';
@@ -10,8 +10,6 @@ $p = 'Welcome to my page!'; ?>
     $city = 'Bergen';
     $age = 32;
     ?>
-
-
 <?php
 include 'main.php';
 ?>

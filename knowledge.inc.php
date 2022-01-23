@@ -2,7 +2,7 @@
 
 <?php
 $a = 'My knowledge is: ';
-$b = 100;$c = '%';
+$b = 110;$c = '%';
 ?>
 
 <?php
