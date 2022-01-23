@@ -146,7 +146,13 @@ h1 {
     color: #08298A;
     text-align: center;
     font-size: 2rem;
-}sss
+}
+
+h4 {
+    color: #08298A;
+    text-align: center;
+    font-size: 15px;
+}
 
 .footer {
     background-color: #279730;

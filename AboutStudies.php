@@ -16,7 +16,7 @@
 
         <div class="article">
             <p class="text">
-                I do not like that PHP content refresh, after the source chnage, doesnot always take place immediately. 
+                I do not like that PHP content refresh, after the source chnage, does not always take place immediately. 
                 Moreover, variables declaredd in index.php often not displayd and only periodic switch between several browsers (chrome -firefox) helps..
             </p>
         </div>

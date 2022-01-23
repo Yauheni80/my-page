@@ -19,6 +19,9 @@
     <div class="about_me">
       <h1> <?php echo $z ?> </h1>
 
+      <h4> <?php echo $u ?> </h4>
+
+
       <div class="data">
 
         <div class="myImg">
@@ -37,7 +40,6 @@
             ?>
           </p>
           <div class="myspec">
-
             <p style="font-size: 23px;font-weight: bold"> Researcher, programer, software developer </p>
             <p> Specialization: </p>
             <p> - Metaheuristics algorithms and discrete-event simulation </p>
@@ -45,9 +47,10 @@
             <p> - Hydrodynamics </p>
             <p> - Combinatorial optimization </p>
             <p> - Machine learning (ML) and neural networks (NN)</p>
-
+            <p style="font-size: 23px;font-weight: bold"> Programming lannguages: <br>
+            - C#, Java, Python, AMPL, PHP basics
+          </p>
           </div>
-
         </div>
       </div>
 
